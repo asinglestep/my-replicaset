@@ -1,0 +1,6 @@
+apiVersion: crd.k8s.demo/v1alpha1
+kind: MyReplicaset
+metadata:
+  name: myreplicaset-sample
+spec:
+  # TODO(user): Add fields here

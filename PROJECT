@@ -1,0 +1,16 @@
+domain: k8s.demo
+layout:
+- go.kubebuilder.io/v3
+projectName: my-replicaset
+repo: k8s-demo/my-replicaset
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: k8s.demo
+  group: crd
+  kind: MyReplicaset
+  path: k8s-demo/my-replicaset/api/v1alpha1
+  version: v1alpha1
+version: "3"
